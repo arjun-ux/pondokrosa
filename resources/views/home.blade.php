@@ -30,7 +30,7 @@
     <meta property="twitter:image" content="https://roudlotussalam.com/assets/img/hero.jpg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://roudlotussalam.com/">
