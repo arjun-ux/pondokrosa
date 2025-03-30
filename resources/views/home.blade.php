@@ -366,6 +366,12 @@
         </div>
         <p>&copy; 2024 Pondok Pesantren Roudlotussalam. All rights reserved.</p>
     </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script>
         const menuBtn = document.querySelector('.menu-btn');
         const navLinks = document.querySelector('.nav-links');
@@ -475,6 +481,26 @@
             });
 
             lazyImages.forEach(img => imageObserver.observe(img));
+        });
+
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+
+        // Show/hide the button based on scroll position
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+
+        // Scroll to top when clicked
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     </script>
     <!-- Scripts -->

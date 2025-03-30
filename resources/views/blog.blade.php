@@ -74,11 +74,6 @@
             </div>
         </div>
 
-        <!-- Sidebar Toggle Button -->
-        <button class="sidebar-toggle">
-            <i class="fas fa-bars"></i>
-        </button>
-
         <!-- Sidebar -->
         <aside class="blog-sidebar">
             <!-- Recent Posts Widget -->
