@@ -39,7 +39,7 @@
                         <span><i class="far fa-user"></i> {{ $latest_post['writer'] }}</span>
                     </div>
                     <h2>{{ $latest_post['title'] }}</h2>
-                    <p>Mengapa pendidikan Islam terpadu menjadi solusi ideal untuk membentuk generasi unggul di era modern? Simak ulasan lengkapnya di sini.</p>
+                    <p>{!! implode(' ', array_slice(explode(' ', $latest_post['content']), 0, 15)) !!}...</p>
                     <a href="{{ route('detail.blog', $latest_post['slug']) }}" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
