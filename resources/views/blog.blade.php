@@ -31,7 +31,7 @@
         <div class="blog-main">
             <article class="blog-featured fade-in">
                 <div class="blog-image">
-                    <img src="{{ $latest_post['image'] ?: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Featured Blog Post">
+                    <img src="{{ env('API_URL_IMAGE').$latest_post['image'] ?: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Featured Blog Post">
                 </div>
                 <div class="blog-details">
                     <div class="blog-meta">
@@ -50,7 +50,7 @@
                 @foreach ($datas as $item)
                     <article class="blog-post fade-in delay-1">
                         <div class="blog-image">
-                            <img src="{{ $item['image'] ?: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Blog Post 1">
+                            <img src="{{ env('API_URL_IMAGE').$item['image'] ?: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Blog Post 1">
                         </div>
                         <div class="blog-details">
                             <div class="blog-meta">
@@ -83,7 +83,7 @@
                     @foreach ($latest_posts as $item)
                     <li class="recent-post-item">
                         <div class="recent-post-image">
-                            <img src="{{ $item['image'] ?: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Recent Post 1">
+                            <img src="{{ env('API_URL_IMAGE').$item['image'] ?: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Recent Post 1">
                         </div>
                         <div class="recent-post-content">
                             <h4><a href="{{ route('detail.blog', $item['slug']) }}">{{ $item['title'] }}</a></h4>

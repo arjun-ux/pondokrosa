@@ -9,7 +9,7 @@
         <div class="section-container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}"><i class="fas fa-home"></i> Beranda</a></li>
                     <li class="breadcrumb-item active">Blog</li>
                 </ol>
             </nav>
@@ -42,7 +42,7 @@
 
                 <!-- Featured Image -->
                 <div class="article-featured-image fade-in">
-                    <img src="{{ $data['image'] ?: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Pendidikan Islam Terpadu">
+                    <img src="{{ env('API_URL_IMAGE').$data['image'] ?: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80' }}" alt="Pendidikan Islam Terpadu">
                 </div>
 
                 <!-- Article Content -->
