@@ -19,6 +19,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta property="twitter:url" content="https://roudlotussalam.com/blog">
     <meta property="twitter:title" content="Blog - Pondok Pesantren Roudlotussalam">
     <meta property="twitter:description" content="Artikel-artikel menarik seputar pendidikan Islam, kegiatan pesantren, dan informasi terkini dari Pondok Pesantren Roudlotussalam.">

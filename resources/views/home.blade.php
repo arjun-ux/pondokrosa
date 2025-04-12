@@ -6,17 +6,20 @@
 
     <!-- Primary Meta Tags -->
     <title>Pondok Pesantren Roudlotussalam - Pendidikan Islam Terpadu</title>
+    <meta name="site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta name="title" content="Pondok Pesantren Roudlotussalam - Pendidikan Islam Terpadu">
     <meta name="description" content="Pondok Pesantren Roudlotussalam adalah lembaga pendidikan Islam terpadu yang menyelenggarakan TK, SMP, SMK, dan Madin. Fokus pada pembentukan karakter, akhlak, dan intelektual santri.">
     <meta name="keywords" content="pesantren, pondok pesantren, pendidikan islam, TK As-Salamah, SMP Roudlotussalam, SMK Roudlotussalam, Madin As-Salamah, tahfidz, pendidikan terpadu">
 
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="Pondok Pesantren Roudlotussalam - Pendidikan Islam Terpadu">
+    <meta itemprop="site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta itemprop="description" content="Pondok Pesantren Roudlotussalam adalah lembaga pendidikan Islam terpadu yang menyelenggarakan TK, SMP, SMK, dan Madin. Fokus pada pembentukan karakter, akhlak, dan intelektual santri.">
     <meta itemprop="image" content="https://roudlotussalam.com/assets/img/hero.jpg">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
+    <meta property="og:site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta property="og:url" content="https://roudlotussalam.com/">
     <meta property="og:title" content="Pondok Pesantren Roudlotussalam - Pendidikan Islam Terpadu">
     <meta property="og:description" content="Pondok Pesantren Roudlotussalam adalah lembaga pendidikan Islam terpadu yang menyelenggarakan TK, SMP, SMK, dan Madin. Fokus pada pembentukan karakter, akhlak, dan intelektual santri.">
@@ -24,6 +27,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta property="twitter:url" content="https://roudlotussalam.com/">
     <meta property="twitter:title" content="Pondok Pesantren Roudlotussalam - Pendidikan Islam Terpadu">
     <meta property="twitter:description" content="Pondok Pesantren Roudlotussalam adalah lembaga pendidikan Islam terpadu yang menyelenggarakan TK, SMP, SMK, dan Madin. Fokus pada pembentukan karakter, akhlak, dan intelektual santri.">
@@ -49,6 +53,7 @@
     {
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
+      "site" : "PP Roudlotussalam | Patoman Watukebo"
       "name": "Pondok Pesantren Roudlotussalam",
       "url": "https://roudlotussalam.com",
       "logo": "https://roudlotussalam.com/assets/img/hero.jpg",
