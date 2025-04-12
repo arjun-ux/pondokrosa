@@ -6,12 +6,14 @@
 
     <!-- Primary Meta Tags -->
     <title>Blog - Pondok Pesantren Roudlotussalam</title>
+    <meta name="site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta name="title" content="Blog - Pondok Pesantren Roudlotussalam">
     <meta name="description" content="Artikel-artikel menarik seputar pendidikan Islam, kegiatan pesantren, dan informasi terkini dari Pondok Pesantren Roudlotussalam.">
     <meta name="keywords" content="blog pesantren, artikel islam, pendidikan islam, pondok pesantren, roudlotussalam">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
+    <meta property="og:site" content="PP Roudlotussalam | Patoman Watukebo">
     <meta property="og:url" content="https://roudlotussalam.com/blog">
     <meta property="og:title" content="Blog - Pondok Pesantren Roudlotussalam">
     <meta property="og:description" content="Artikel-artikel menarik seputar pendidikan Islam, kegiatan pesantren, dan informasi terkini dari Pondok Pesantren Roudlotussalam.">
